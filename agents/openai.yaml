@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skill / Agent 优化助手"
+  short_description: "伴随观测技能与 Agent 执行问题，提供证据评分、优化实施和回归验证"
+  default_prompt: "使用 $skill-agent-optimizer 观测当前任务中的 Skill/Agent，整理问题、实施范围内优化，并报告评分和验证结果。"
+policy:
+  allow_implicit_invocation: false
